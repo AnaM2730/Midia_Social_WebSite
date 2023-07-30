@@ -125,10 +125,16 @@ nav .search-bar input[type="search"]::placeholder{
  }
 
 
+/*------------ MAIN------------- */
+main{
+    position: relative;
+    top: 5.4rem;
+}
 
-
-
-
+main .container{
+    display: grid;
+    grid-template-columns: 18vh auto 20vw;
+}
 
 
 
