@@ -251,6 +251,7 @@ main .container .left .profile{
     box-shadow: 0 0 2rem hsl(var
     (--color-primary), 75%, 60%, 25%);
     z-index: 8;
+    display: none;
 }
 
 .left .notificacao-popud::before{
@@ -258,13 +259,22 @@ main .container .left .profile{
     width: 1.2rem;
     height: 1.2rem;
     display: block;
-    background: red;
+    background: var(--color-white);
     position: absolute;
     left: -0.6rem;
     transform: rotate(45deg);
 }
 
+.left .notificacao-popud >div{
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
 
+.left .notificacao-popud small{
+    display: block;
+}
 
 
 
