@@ -385,15 +385,40 @@ main .container .left .profile{
 }
 
 .middle .feed .photo{
-    
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
+    margin: 0.7rem 0;
 }
 
+.middle .feed .action-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    margin: 0.6rem;
+}
 
+.middle .like-by{
+    display: flex;
+}
 
+.middle .like-by span{
+    width: 1.4rem;
+    height: 1.4rem;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--color-white);
+    margin-left: -0.6rem;
+}
 
+.middle .like-by span:first-child{
+    margin: 0;
+}
 
-
-
+.middle .like-by p{
+    margin-left: 0.5rem;
+}
 
 
 
