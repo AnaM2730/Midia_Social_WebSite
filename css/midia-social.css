@@ -422,9 +422,16 @@ main .container .left .profile{
 }
 
 /* DIREITA */
+main .container .right{
+    height: max-content;
+    position: sticky;
+    top: var(--sticky-top-right);
+    bottom: 0;
+}
 
-
-
+.right .messages{
+    background: ;
+}
 
 
 
