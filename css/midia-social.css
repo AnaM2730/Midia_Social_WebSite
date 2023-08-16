@@ -526,8 +526,35 @@ font-size: 1.4rem;
     margin-bottom: 0.7rem;
 }
 
-.right .request .imfo{
+.right .request .info{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+.right .request .action{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
