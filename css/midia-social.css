@@ -5,7 +5,7 @@
     --color-light: hsl(252, 30%, 95%);
     --color-white: hsl(252, 30%, 100%);
     --color-gray: hsl(252, 15%, 65%);
-    --color-primary: hsl(252, 75%, 60%);
+    --color-primary: hsl(286, 77%, 29%);
     --color-secondary: hsl(252, 100%, 90%);
     --color-success: hsl(120, 95%, 65%);
     --color-danger: hsl(0, 95%, 65%);
@@ -536,6 +536,115 @@ font-size: 1.4rem;
     display: flex;
     gap: 1rem;
 }
+
+
+/* CUSTOMIZAÇÃO */
+.customize_tema{
+    background: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-size: 0.9rem;
+}
+
+.customize_tema .card{
+    background: var(--color-white);
+    padding: 3rem;
+    border-radius: var(--card-border-radius);
+    width: 50%;
+}
+
+
+
+/* FONTES */
+.customize_tema .font-size{
+    margin-bottom: 5rem;
+}
+
+.customize_tema .font-size > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-light);
+    padding: var(--search-padding);
+    border-radius: var(--card-border-radius);
+}
+
+.customize_tema .choose-size{
+    background: var(--color-secondary);
+    height: 0.3rem;
+    width: 100%;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customize_tema .choose-size span{
+    width: 1rem;
+    height: 1rem;
+    background: var(--color-secondary);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.customize_tema .choose-size span.active{
+    background: var(--color-primary);
+}
+
+/* CORES */
+
+.customize_tema .color{
+    margin-top: 2rem;
+}
+
+.customize_tema .choose-color{
+    background: var(--color-light);
+    padding: var(--search-padding);
+    border-radius: var(--card-border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customize_tema .choose-color span{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+}
+
+.customize_tema .choose-color span:nth-child(1){
+background: hsl(252, 75%, 60%);
+}
+
+.customize_tema .choose-color span:nth-child(2){
+background: hsl(53, 75%, 60%);
+}
+
+.customize_tema .choose-color span:nth-child(3){
+background: hsl(352, 75%, 60%);
+}
+
+.customize_tema .choose-color span:nth-child(4){
+background: hsl(152, 75%, 60%);
+}
+
+.customize_tema .choose-color span:nth-child(5){
+background: hsl(202, 75%, 60%);
+}
+
+
+
+
+
+
+
 
 
 
