@@ -4,7 +4,7 @@ const menuItems = document.querySelectorAll('.menu-item');
 
 
 /* MENSAGENS */
-const messagesNotification = document.querySelector('#messages')
+const messagesNotification = document.querySelector('#mensagens-notificacoes')
 
 
 
