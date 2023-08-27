@@ -639,15 +639,26 @@ background: hsl(152, 75%, 60%);
 background: hsl(202, 75%, 60%);
 }
 
+.customize_tema .choose-color span.active{
+    border: 5px solid white;
+}
 
+/* BACKGROUND */
+.customize_tema .background{
+    margin-top: 2rem;
+}
 
+.customize_tema .choose-bg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
 
-
-
-
-
-
-
+.customize_tema .choose-bg > div{
+    padding: var(--card-padding);
+    width: 100%;
+}
 
 
 
