@@ -6,7 +6,8 @@ const menuItems = document.querySelectorAll('.menu-item');
 /* MENSAGENS */
 const messagesNotification = document.querySelector('#mensagens-notificacoes');
 const messages = document.querySelector('.messages');
-const message = messages.querySelectorAll('.message')
+const message = messages.querySelectorAll('.messages');
+const messageSearch = Document.querySelector('#message-search');
 
 
 /* REMOVE ACTIVE CLASS FROM MENU ITEMS */
