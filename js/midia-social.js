@@ -36,7 +36,7 @@ menuItems.forEach(item => {
 /* MENSAGENS */
 messagesNotification.addEventListener('click', () => {
     messages.style.boxShadow = '0 0 1rem var(--color-primary)';
-    messagesNotification.querySelector('.notificacoes-count').style.display = 'none'
+    messagesNotification.querySelector('.notificacoes-count').style.display = 'none';
     setTimeout(() => {
         messages.style.boxShadow = 'none';
     }, 2000);
