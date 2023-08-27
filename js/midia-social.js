@@ -36,6 +36,9 @@ menuItems.forEach(item => {
 /* MENSAGENS */
 messagesNotification.addEventListener('click', () => {
     messages.style.boxShadow = '0 0 1rem var(--color-primary)';
+    setTimeout(() => {
+        
+    }, 2000);
 })
 
 
