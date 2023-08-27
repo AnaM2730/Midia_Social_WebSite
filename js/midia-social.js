@@ -1,6 +1,13 @@
 /// SIDEBAR
 const menuItems = document.querySelectorAll('.menu-item');
 
+
+
+/* MENSAGENS */
+
+
+
+
 /* REMOVE ACTIVE CLASS FROM MENU ITEMS */
 const changeActiveItem = () => {
     menuItems.forEach(item => {
@@ -23,7 +30,4 @@ menuItems.forEach(item => {
         }
     })
 })
-
-
-/* MENSAGENS */
 
