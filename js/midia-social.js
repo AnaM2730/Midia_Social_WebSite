@@ -33,6 +33,9 @@ menuItems.forEach(item => {
     })
 })
 
+/* PESQUISA CHAT */
+
+
 
 /* MENSAGENS */
 messagesNotification.addEventListener('click', () => {
