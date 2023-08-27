@@ -240,7 +240,7 @@ main .container .left .profile{
 
 /* notificações */
 
-.left .notificacao-popud{
+.left .notifications-popup{
     position: absolute;
     top: 0;
     left: 110%;
@@ -254,7 +254,7 @@ main .container .left .profile{
     display: none;
 }
 
-.left .notificacao-popud::before{
+.left .notifications-popup::before{
     content: "";
     width: 1.2rem;
     height: 1.2rem;
@@ -265,14 +265,14 @@ main .container .left .profile{
     transform: rotate(45deg);
 }
 
-.left .notificacao-popud >div{
+.left .notifications-popup >div{
     display: flex;
     align-items: start;
     gap: 1rem;
     margin-bottom: 1rem;
 }
 
-.left .notificacao-popud small{
+.left .notifications-popup small{
     display: block;
 }
 
@@ -551,6 +551,7 @@ font-size: 1.4rem;
     display: grid;
     place-items: center;
     font-size: 0.9rem;
+    display: none;
 }
 
 .customize_tema .card{

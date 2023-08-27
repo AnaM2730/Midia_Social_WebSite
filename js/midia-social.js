@@ -14,7 +14,16 @@ menuItems.forEach(item => {
         changeActiveItem();
         item.classList.add('active');
         if (item.id != 'notifications') {
-            document.querySelector('.noti')
+            document.querySelector('.notifications-popup').
+                style.display = 'none';
+        } else{
+            document.querySelector('.notifications-popup').
+                style.display = 'block';
+            document.querySelector('#notifications .notificacoes-count').style.display ='none'
         }
     })
 })
+
+
+/* MENSAGENS */
+
