@@ -6,7 +6,7 @@ const menuItems = document.querySelectorAll('.menu-item');
 /* MENSAGENS */
 const messagesNotification = document.querySelector('#mensagens-notificacoes');
 const messages = document.querySelector('.messages');
-const message = messages.querySelectorAll('.messages');
+const message = messages.querySelectorAll('.message');
 const messageSearch = Document.querySelector('#message-search');
 
 
@@ -34,11 +34,21 @@ menuItems.forEach(item => {
 })
 
 /* PESQUISA CHAT */
-
+const searchMessage = () => {
+    const val = messageSearch.value.toLowerCase();
+    message.forEach(chat => {
+        let name = chat.querySelectorAll('h5').textContent.toLocaleLowerCase();
+        if (name.indexOf(val) != -1) {
+            chat.style.display = 'flex';
+        } else {
+            chat.style.display = 'none';
+        }
+    })
+}
 
 
 /* MENSAGENS */
-message.Search.addEventListener
+message.Search.addEventListener('keyup', SearchMessage);
 
 
 messagesNotification.addEventListener('click', () => {
