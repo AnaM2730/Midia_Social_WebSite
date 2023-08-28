@@ -48,7 +48,7 @@ const searchMessage = () => {
 
 
 /* MENSAGENS */
-message.Search.addEventListener('keyup', searchMessage);
+messageSearch.addEventListener('keyup', searchMessage);
 
 
 messagesNotification.addEventListener('click', () => {
