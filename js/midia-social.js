@@ -7,7 +7,7 @@ const menuItems = document.querySelectorAll('.menu-item');
 const messagesNotification = document.querySelector('#mensagens-notificacoes');
 const messages = document.querySelector('.messages');
 const message = messages.querySelectorAll('.message');
-const messageSearch = Document.querySelector('#message-search');
+const messageSearch = document.querySelector('#message-search');
 
 
 /* REMOVE ACTIVE CLASS FROM MENU ITEMS */
@@ -17,17 +17,14 @@ const changeActiveItem = () => {
     })
 }
 
-
 menuItems.forEach(item => {
     item.addEventListener('click', () => {
         changeActiveItem();
         item.classList.add('active');
         if (item.id != 'notifications') {
-            document.querySelector('.notifications-popup').
-                style.display = 'none';
+            document.querySelector('.notifications-popup').style.display = 'none';
         } else{
-            document.querySelector('.notifications-popup').
-                style.display = 'block';
+            document.querySelector('.notifications-popup').style.display = 'block';
             document.querySelector('#notifications .notificacoes-count').style.display ='none'
         }
     })
