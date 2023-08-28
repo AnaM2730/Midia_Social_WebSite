@@ -38,6 +38,9 @@ menuItems.forEach(item => {
 
 
 /* MENSAGENS */
+message.Search.addEventListener
+
+
 messagesNotification.addEventListener('click', () => {
     messages.style.boxShadow = '0 0 1rem var(--color-primary)';
     messagesNotification.querySelector('.notificacoes-count').style.display = 'none';
