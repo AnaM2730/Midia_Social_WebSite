@@ -72,8 +72,15 @@ const openThemeModal = () => {
     themeModal.style.display = 'grid';
 }
 
-/* fechamento modal */
+const closeThemeModal = (e) => {
+    if (e.target.classList.contains('customize_tema')) {
+        themeModal.style.display = 'none';
+    }
+}
 
+
+/* fechamento modal */
+themeModal.addEventListener('click', closeThemeModal);
 
 
 theme.addEventListener('click', openThemeModal);
