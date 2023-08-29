@@ -15,6 +15,10 @@ const themeModal = document.querySelector('.customize_tema');
 const fontSizes = document.querySelectorAll('.choose-size span');
 var root = document.querySelector(':root');
 const colorPallete = document.querySelectorAll('.choose-color span');
+/* MUDA COR DO SITE MODO ESCURO OU CLARO */
+const Bg1 = document.querySelector('.bg-1');
+const Bg2 = document.querySelector('.bg-2');
+const Bg3 = document.querySelector('.bg-3');
 
 /// -----SIDEBAR-----
 /* REMOVE ACTIVE CLASS FROM MENU ITEMS */
@@ -56,7 +60,6 @@ const searchMessage = () => {
 /* MENSAGENS */
 messageSearch.addEventListener('keyup', searchMessage);
 
-
 messagesNotification.addEventListener('click', () => {
     messages.style.boxShadow = '0 0 1rem var(--color-primary)';
     messagesNotification.querySelector('.notificacoes-count').style.display = 'none';
@@ -69,7 +72,6 @@ messagesNotification.addEventListener('click', () => {
 
 
 /* ----TEMA------ CUSTOMIZAÇÃO */
-
 const openThemeModal = () => {
     themeModal.style.display = 'grid';
 }
@@ -145,7 +147,9 @@ const changeActiveColorClass = () => {
 colorPallete.forEach(color => {
     color.addEventListener('click', () => {
         let primary;
-        
+        /* remove active cores */
+        changeActiveColorClass();
+
         if (color.classList.contains('color-1')){
             primaryHue = 252;
         } else if(color.classList.contains('color-2')){
