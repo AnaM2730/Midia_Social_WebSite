@@ -14,7 +14,7 @@ const theme = document.querySelector('#theme');
 const themeModal = document.querySelector('.customize_tema');
 const fontSizes = document.querySelectorAll('.choose-size span');
 var root = document.querySelector(':root');
-const colorPallete = document.querySelectorAll('.choose-color span')
+const colorPallete = document.querySelectorAll('.choose-color span');
 
 /// -----SIDEBAR-----
 /* REMOVE ACTIVE CLASS FROM MENU ITEMS */
@@ -134,8 +134,13 @@ fontSizes.forEach(size => {
 })
 
 
-
 /* MUDAR CORES */
-
+colorPallete.forEach(color => {
+    color.addEventListener('click', () => {
+        if (color.classList.contains('color-1')) {
+            primaryHue = 252;
+        }
+    })
+})
 
 
