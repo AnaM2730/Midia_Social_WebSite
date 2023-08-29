@@ -177,6 +177,7 @@ const changeBG = () => {
     root.style.setProperty('--dark-color-lightness',darkColorlightness);
 }
 
+/* COR BRANCA */
 Bg1.addEventListener('click', () => {
     darkColorlightness = '10%';
     whiteColorlightness = '100%';
@@ -191,6 +192,7 @@ Bg1.addEventListener('click', () => {
     windows.location.reload();
 });
 
+/* AZUL ESCURO */
 Bg2.addEventListener('click', () => {
     darkColorlightness = '95%';
     whiteColorlightness = '20%';
@@ -204,6 +206,7 @@ Bg2.addEventListener('click', () => {
     changeBG();
 });
 
+/* PRETO */
 Bg3.addEventListener('click', () => {
     darkColorlightness = '95%';
     whiteColorlightness = '10%';
