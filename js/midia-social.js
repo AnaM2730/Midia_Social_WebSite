@@ -11,7 +11,7 @@ const messageSearch = document.querySelector('#message-search');
 
 /* TEMA */
 const theme = document.querySelector('#theme');
-const themeModal = document.querySelector('.customize-theme')
+const themeModal = document.querySelector('.customize_tema');
 
 
 /// -----SIDEBAR-----
@@ -68,3 +68,12 @@ messagesNotification.addEventListener('click', () => {
 
 /* ----TEMA------ CUSTOMIZAÇÃO */
 
+const openThemeModal = () => {
+    themeModal.style.display = 'grid';
+}
+
+/* fechamento modal */
+
+
+
+theme.addEventListener('click', openThemeModal);
