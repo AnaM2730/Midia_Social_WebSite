@@ -1,4 +1,4 @@
-/// SIDEBAR
+/// -----SIDEBAR-----
 const menuItems = document.querySelectorAll('.menu-item');
 
 
@@ -9,7 +9,7 @@ const messages = document.querySelector('.messages');
 const message = messages.querySelectorAll('.message');
 const messageSearch = document.querySelector('#message-search');
 
-
+/// -----SIDEBAR-----
 /* REMOVE ACTIVE CLASS FROM MENU ITEMS */
 const changeActiveItem = () => {
     menuItems.forEach(item => {
@@ -30,11 +30,13 @@ menuItems.forEach(item => {
     })
 })
 
+
+/* ------CHAT---- */
 /* PESQUISA CHAT */
 const searchMessage = () => {
     const val = messageSearch.value.toLowerCase();
     message.forEach(chat => {
-        let name = chat.querySelectorAll('h5').textContent.toLocaleLowerCase();
+        let name = chat.querySelector('h5').textContent.toLowerCase();
         if (name.indexOf(val) != -1) {
             chat.style.display = 'flex';
         } else {
