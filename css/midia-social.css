@@ -586,6 +586,7 @@ font-size: 1.4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .customize_tema .choose-size span{
@@ -594,6 +595,7 @@ font-size: 1.4rem;
     background: var(--color-secondary);
     border-radius: 50%;
     cursor: pointer;
+    
 }
 
 .customize_tema .choose-size span.active{
