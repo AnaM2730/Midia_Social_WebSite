@@ -178,6 +178,9 @@ const changeBG = () => {
 }
 
 Bg1.addEventListener('click', () => {
+    darkColorlightness = '10%';
+    whiteColorlightness = '100%';
+    lightColorlightness = '100%';
     /* add active */
     Bg1.classList.add('active');
     /* remove active */
