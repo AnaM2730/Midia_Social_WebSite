@@ -166,4 +166,50 @@ colorPallete.forEach(color => {
     })
 })
 
+/* TEMAS BACKGROUND */
+let lightColorlightness;
+let whiteColorlightness;
+let darkColorlightness;
 
+const changeBG = () => {
+    root.style.setProperty('--light-color-lightness',lightColorlightness);
+    root.style.setProperty('--white-color-lightness',whiteColorlightness);
+    root.style.setProperty('--dark-color-lightness',darkColorlightness);
+}
+
+Bg1.addEventListener('click', () => {
+    /* add active */
+    Bg1.classList.add('active');
+    /* remove active */
+    Bg2.classList.remove('active');
+    Bg3.classList.remove('active');
+    changeBG();
+    /* remove customização */
+    windows.location.reload();
+});
+
+Bg2.addEventListener('click', () => {
+    darkColorlightness = '95%';
+    whiteColorlightness = '20%';
+    lightColorlightness = '15%';
+
+    /* add active */
+    Bg2.classList.add('active');
+    /* remove active */
+    Bg1.classList.remove('active');
+    Bg3.classList.remove('active');
+    changeBG();
+});
+
+Bg3.addEventListener('click', () => {
+    darkColorlightness = '95%';
+    whiteColorlightness = '10%';
+    lightColorlightness = '0%';
+
+    /* add active */
+    Bg3.classList.add('active');
+    /* remove active */
+    Bg1.classList.remove('active');
+    Bg2.classList.remove('active');
+    changeBG();
+});
