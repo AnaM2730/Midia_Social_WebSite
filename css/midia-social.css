@@ -348,6 +348,7 @@ main .container .left .profile{
     border: 3px solid var(--color-primary);
 }
 
+
 /* criação de post */
 .middle .create-post{
     width: 100%;
