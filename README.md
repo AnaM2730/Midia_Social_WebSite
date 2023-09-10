@@ -1,15 +1,15 @@
-# 📚 Sobre
- Arakau Social é um website, foi criada com o intuíto de ser uma "rede social" desenvolvida para "facilitar" o acesso e a comunicação dos usuários.
+# 📚 About
+  Arakau Social is a website, it was created with the intention of being a "social network" developed to "facilitate" users' access and communication.
 <hr>
 
-## Detalhes
-Foi criado e desenvolvido apenas para aprofundamento de conhecimentos
+## Details
+It was created and developed solely to deepen knowledge
 
- ## 💻Linguagens utilizadas
+  ## 💻Languages used
 - HTML <br>
 - CSS <br>
-- JS
+-JS
 
-## 👩‍💻Acesse o Site
-Hospedado no netlify <br>
+## 👩‍💻Access the Website
+Hosted on netlify <br>
 https://arakausocial.netlify.app
