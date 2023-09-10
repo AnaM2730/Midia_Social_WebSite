@@ -5,7 +5,7 @@
 ## Detalhes
 Foi criado e desenvolvido apenas para aprofundamento de conhecimentos
 
- ## 💻Tecnologias utilizadas
+ ## 💻Linguagens utilizadas
 - HTML <br>
 - CSS <br>
 - JS
